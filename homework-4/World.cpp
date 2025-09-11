@@ -74,6 +74,7 @@ World::World(const std::string& worldFilePath) {
         // ball.setVelocity(Velocity(vx, vy));
         ball.setColor(Color(red, green, blue));
         ball.setRadius(radius);
+        ball.setMass(3.14 * std::pow(radius, 3) * 4. / 3);
         ball.setCollidable(isCollidable);
 
         balls.push_back(ball);
