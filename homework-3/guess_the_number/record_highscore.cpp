@@ -5,12 +5,10 @@
 #include <vector>
 
 bool is_in_map(std::string name, const std::map<std::string, int> &map) {
-    try {
-        map.at(name);
-    } catch (const std::out_of_range &ex) {
-        return false;
+    if (map.find(name) != map.end()) {
+        return true;
     }
-    return true;
+    return false;
 }
 
 int value_from_map(std::string name, const std::map<std::string, int> &map) {
