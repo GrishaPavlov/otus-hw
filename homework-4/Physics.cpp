@@ -1,7 +1,6 @@
 #include "Physics.hpp"
 
 #include <iostream>
-#include <bits/ostream.tcc>
 
 double dot(const Point &lhs, const Point &rhs) {
     return lhs.x * rhs.x + lhs.y * rhs.y;
