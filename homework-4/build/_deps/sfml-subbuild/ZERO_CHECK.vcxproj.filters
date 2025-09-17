@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gregory\otus-hw\homework-4\build\_deps\sfml-subbuild\CMakeFiles\9cd13bfcc3f7b4a0b5216061eee91213\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{51556DDC-DCE6-339B-B37E-0F6C3B65E546}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

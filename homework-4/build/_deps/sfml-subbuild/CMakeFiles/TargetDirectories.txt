@@ -1,0 +1,3 @@
+C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-subbuild/CMakeFiles/ZERO_CHECK.dir

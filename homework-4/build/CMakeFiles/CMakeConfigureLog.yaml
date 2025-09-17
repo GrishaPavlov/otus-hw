@@ -1,0 +1,2513 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.10+8b8e13593 for .NET Framework
+      Build started 9/15/2025 12:39:39 PM.
+      
+      Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.44
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/4.1.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Git LFS/lld-link.com"
+      - "C:/Program Files/Git LFS/lld-link.exe"
+      - "C:/Program Files/Git LFS/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Gregory/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Gregory/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Gregory/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/lld-link"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/lld-link"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/mt.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/mt.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/Git LFS/mt.com"
+      - "C:/Program Files/Git LFS/mt.exe"
+      - "C:/Program Files/Git LFS/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Gregory/AppData/Roaming/npm/mt.com"
+      - "C:/Users/Gregory/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/Gregory/AppData/Roaming/npm/mt"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/mt.com"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/mt.exe"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/mt"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/mt.com"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/mt.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/mt"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.10+8b8e13593 for .NET Framework
+      Build started 9/15/2025 12:39:40 PM.
+      
+      Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.44
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/4.1.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Git LFS/lld-link.com"
+      - "C:/Program Files/Git LFS/lld-link.exe"
+      - "C:/Program Files/Git LFS/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Gregory/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Gregory/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Gregory/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/lld-link"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/lld-link"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/physics/bin/"
+      - "C:/Program Files (x86)/physics/sbin/"
+      - "C:/Program Files (x86)/physics/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/rc.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/rc.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/Git LFS/rc.com"
+      - "C:/Program Files/Git LFS/rc.exe"
+      - "C:/Program Files/Git LFS/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Gregory/AppData/Roaming/npm/rc.com"
+      - "C:/Users/Gregory/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/Gregory/AppData/Roaming/npm/rc"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/rc.com"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/rc.exe"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/rc"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/rc.com"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/rc.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/rc"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/physics/bin/rc.com"
+      - "C:/Program Files (x86)/physics/bin/rc.exe"
+      - "C:/Program Files (x86)/physics/bin/rc"
+      - "C:/Program Files (x86)/physics/sbin/rc.com"
+      - "C:/Program Files (x86)/physics/sbin/rc.exe"
+      - "C:/Program Files (x86)/physics/sbin/rc"
+      - "C:/Program Files (x86)/physics/rc.com"
+      - "C:/Program Files (x86)/physics/rc.exe"
+      - "C:/Program Files (x86)/physics/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/physics"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/physics"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-85csoj"
+      binary: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-85csoj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-85csoj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_713d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 9/15/2025 12:39:40 PM.
+        
+        Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85csoj\\cmTC_713d1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_713d1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85csoj\\Debug\\".
+          Creating directory "cmTC_713d1.dir\\Debug\\cmTC_713d1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_713d1.dir\\Debug\\cmTC_713d1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_713d1.dir\\Debug\\cmTC_713d1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_713d1.dir\\Debug\\\\" /Fd"cmTC_713d1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_713d1.dir\\Debug\\\\" /Fd"cmTC_713d1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85csoj\\Debug\\cmTC_713d1.exe" /INCREMENTAL /ILK:"cmTC_713d1.dir\\Debug\\cmTC_713d1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-85csoj/Debug/cmTC_713d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-85csoj/Debug/cmTC_713d1.lib" /MACHINE:X64  /machine:x64 cmTC_713d1.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_713d1.vcxproj -> C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85csoj\\Debug\\cmTC_713d1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_713d1.dir\\Debug\\cmTC_713d1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_713d1.dir\\Debug\\cmTC_713d1.tlog\\cmTC_713d1.lastbuildstate".
+        Done Building Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85csoj\\cmTC_713d1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35209.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-v3r9cg"
+      binary: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-v3r9cg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-v3r9cg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cd38b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 9/15/2025 12:39:41 PM.
+        
+        Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3r9cg\\cmTC_cd38b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_cd38b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3r9cg\\Debug\\".
+          Creating directory "cmTC_cd38b.dir\\Debug\\cmTC_cd38b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cd38b.dir\\Debug\\cmTC_cd38b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cd38b.dir\\Debug\\cmTC_cd38b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_cd38b.dir\\Debug\\\\" /Fd"cmTC_cd38b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_cd38b.dir\\Debug\\\\" /Fd"cmTC_cd38b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3r9cg\\Debug\\cmTC_cd38b.exe" /INCREMENTAL /ILK:"cmTC_cd38b.dir\\Debug\\cmTC_cd38b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-v3r9cg/Debug/cmTC_cd38b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-v3r9cg/Debug/cmTC_cd38b.lib" /MACHINE:X64  /machine:x64 cmTC_cd38b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_cd38b.vcxproj -> C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3r9cg\\Debug\\cmTC_cd38b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_cd38b.dir\\Debug\\cmTC_cd38b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cd38b.dir\\Debug\\cmTC_cd38b.tlog\\cmTC_cd38b.lastbuildstate".
+        Done Building Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3r9cg\\cmTC_cd38b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35209.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:7 (find_package)"
+    name: "SFML"
+    components:
+      -
+        name: "graphics"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "SFMLConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sfml-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SFML"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/pkgRedirects/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/pkgRedirects/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Workstation/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Workstation/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Oculus/Support/oculus-runtime/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Oculus/Support/oculus-runtime/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git LFS/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git LFS/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Gregory/AppData/Local/GitHubDesktop/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Gregory/AppData/Local/GitHubDesktop/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/CLion 2025.1.1/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/CLion 2025.1.1/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/physics"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/physics"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindGit.cmake:86 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:1874 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:1609 (__FetchContent_populateSubbuild)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2145 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)"
+      - "CMakeLists.txt:24 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/physics/bin/"
+      - "C:/Program Files (x86)/physics/sbin/"
+      - "C:/Program Files (x86)/physics/"
+      - "C:/Users/Gregory/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/git.cmd.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/git.cmd.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files/Git LFS/git.cmd.com"
+      - "C:/Program Files/Git LFS/git.cmd.exe"
+      - "C:/Program Files/Git LFS/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/Gregory/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/Gregory/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/Gregory/AppData/Roaming/npm/git.cmd"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/git.cmd.com"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/git.cmd.exe"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/git.cmd"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/git.cmd.com"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/git.cmd.exe"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/git.cmd"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/git.cmd.com"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/git.cmd.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/git.cmd"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/physics/bin/git.cmd.com"
+      - "C:/Program Files (x86)/physics/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/physics/bin/git.cmd"
+      - "C:/Program Files (x86)/physics/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/physics/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/physics/sbin/git.cmd"
+      - "C:/Program Files (x86)/physics/git.cmd.com"
+      - "C:/Program Files (x86)/physics/git.cmd.exe"
+      - "C:/Program Files (x86)/physics/git.cmd"
+      - "C:/Users/Gregory/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/Gregory/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/Gregory/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/git.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/git.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/nodejs/git.com"
+      - "C:/Program Files/nodejs/git.exe"
+      - "C:/Program Files/nodejs/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/physics"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/physics"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckIncludeFile.cmake:165 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckTypeSize.cmake:343 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-jlf7t6"
+      binary: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-jlf7t6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-jlf7t6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ce585.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 9/15/2025 12:40:02 PM.
+        
+        Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlf7t6\\cmTC_ce585.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ce585.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlf7t6\\Debug\\".
+          Creating directory "cmTC_ce585.dir\\Debug\\cmTC_ce585.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ce585.dir\\Debug\\cmTC_ce585.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ce585.dir\\Debug\\cmTC_ce585.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ce585.dir\\Debug\\\\" /Fd"cmTC_ce585.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlf7t6\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ce585.dir\\Debug\\\\" /Fd"cmTC_ce585.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlf7t6\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlf7t6\\Debug\\cmTC_ce585.exe" /INCREMENTAL /ILK:"cmTC_ce585.dir\\Debug\\cmTC_ce585.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-jlf7t6/Debug/cmTC_ce585.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-jlf7t6/Debug/cmTC_ce585.lib" /MACHINE:X64  /machine:x64 cmTC_ce585.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_ce585.vcxproj -> C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlf7t6\\Debug\\cmTC_ce585.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ce585.dir\\Debug\\cmTC_ce585.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ce585.dir\\Debug\\cmTC_ce585.tlog\\cmTC_ce585.lastbuildstate".
+        Done Building Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlf7t6\\cmTC_ce585.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckIncludeFile.cmake:165 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckTypeSize.cmake:344 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-zida5q"
+      binary: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-zida5q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-zida5q'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ec6ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 9/15/2025 12:40:02 PM.
+        
+        Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zida5q\\cmTC_ec6ea.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ec6ea.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zida5q\\Debug\\".
+          Creating directory "cmTC_ec6ea.dir\\Debug\\cmTC_ec6ea.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ec6ea.dir\\Debug\\cmTC_ec6ea.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ec6ea.dir\\Debug\\cmTC_ec6ea.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ec6ea.dir\\Debug\\\\" /Fd"cmTC_ec6ea.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zida5q\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ec6ea.dir\\Debug\\\\" /Fd"cmTC_ec6ea.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zida5q\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zida5q\\Debug\\cmTC_ec6ea.exe" /INCREMENTAL /ILK:"cmTC_ec6ea.dir\\Debug\\cmTC_ec6ea.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-zida5q/Debug/cmTC_ec6ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-zida5q/Debug/cmTC_ec6ea.lib" /MACHINE:X64  /machine:x64 cmTC_ec6ea.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_ec6ea.vcxproj -> C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zida5q\\Debug\\cmTC_ec6ea.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ec6ea.dir\\Debug\\cmTC_ec6ea.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ec6ea.dir\\Debug\\cmTC_ec6ea.tlog\\cmTC_ec6ea.lastbuildstate".
+        Done Building Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zida5q\\cmTC_ec6ea.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckIncludeFile.cmake:165 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckTypeSize.cmake:345 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-gg96w4"
+      binary: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-gg96w4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-gg96w4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4e638.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 9/15/2025 12:40:03 PM.
+        
+        Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gg96w4\\cmTC_4e638.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4e638.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gg96w4\\Debug\\".
+          Creating directory "cmTC_4e638.dir\\Debug\\cmTC_4e638.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4e638.dir\\Debug\\cmTC_4e638.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4e638.dir\\Debug\\cmTC_4e638.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_4e638.dir\\Debug\\\\" /Fd"cmTC_4e638.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gg96w4\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_4e638.dir\\Debug\\\\" /Fd"cmTC_4e638.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gg96w4\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gg96w4\\Debug\\cmTC_4e638.exe" /INCREMENTAL /ILK:"cmTC_4e638.dir\\Debug\\cmTC_4e638.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-gg96w4/Debug/cmTC_4e638.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-gg96w4/Debug/cmTC_4e638.lib" /MACHINE:X64  /machine:x64 cmTC_4e638.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_4e638.vcxproj -> C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gg96w4\\Debug\\cmTC_4e638.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4e638.dir\\Debug\\cmTC_4e638.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4e638.dir\\Debug\\cmTC_4e638.tlog\\cmTC_4e638.lastbuildstate".
+        Done Building Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gg96w4\\cmTC_4e638.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckTypeSize.cmake:237 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckTypeSize.cmake:364 (__check_type_size_impl)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:41 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-zbqgry"
+      binary: "C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-zbqgry"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-zbqgry'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1378a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 9/15/2025 12:40:03 PM.
+        
+        Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zbqgry\\cmTC_1378a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1378a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zbqgry\\Debug\\".
+          Creating directory "cmTC_1378a.dir\\Debug\\cmTC_1378a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1378a.dir\\Debug\\cmTC_1378a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1378a.dir\\Debug\\cmTC_1378a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1378a.dir\\Debug\\\\" /Fd"cmTC_1378a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zbqgry\\SIZEOF_VOID_PTR.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1378a.dir\\Debug\\\\" /Fd"cmTC_1378a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zbqgry\\SIZEOF_VOID_PTR.c"
+          SIZEOF_VOID_PTR.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zbqgry\\Debug\\cmTC_1378a.exe" /INCREMENTAL /ILK:"cmTC_1378a.dir\\Debug\\cmTC_1378a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-zbqgry/Debug/cmTC_1378a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Gregory/otus-hw/homework-4/build/CMakeFiles/CMakeScratch/TryCompile-zbqgry/Debug/cmTC_1378a.lib" /MACHINE:X64  /machine:x64 cmTC_1378a.dir\\Debug\\SIZEOF_VOID_PTR.obj
+          cmTC_1378a.vcxproj -> C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zbqgry\\Debug\\cmTC_1378a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1378a.dir\\Debug\\cmTC_1378a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1378a.dir\\Debug\\cmTC_1378a.tlog\\cmTC_1378a.lastbuildstate".
+        Done Building Project "C:\\Users\\Gregory\\otus-hw\\homework-4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zbqgry\\cmTC_1378a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/_deps/sfml-src/cmake/Modules/FindFreetype.cmake:54 (find_path)"
+      - "build/_deps/sfml-src/cmake/Macros.cmake:391 (find_package)"
+      - "build/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt:126 (sfml_find_package)"
+    mode: "path"
+    variable: "FREETYPE_INCLUDE_DIR_ft2build"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ft2build.h"
+    candidate_directories:
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/include/freetype2/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/include/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/include/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/include/freetype2/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/include/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/freetype2/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype2/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype2/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/include/freetype2/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/include/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/freetype2/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/include/freetype2/"
+      - "C:/Windows/System32/include/"
+      - "C:/Windows/System32/freetype2/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/include/freetype2/"
+      - "C:/Windows/include/"
+      - "C:/Windows/freetype2/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/include/freetype2/"
+      - "C:/Windows/System32/wbem/include/"
+      - "C:/Windows/System32/wbem/freetype2/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/include/freetype2/"
+      - "C:/Windows/System32/OpenSSH/include/"
+      - "C:/Windows/System32/OpenSSH/freetype2/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/include/freetype2/"
+      - "C:/Program Files/nodejs/include/"
+      - "C:/Program Files/nodejs/freetype2/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/include/freetype2/"
+      - "C:/Program Files/Git/cmd/include/"
+      - "C:/Program Files/Git/cmd/freetype2/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/include/freetype2/"
+      - "C:/Program Files/Git LFS/include/"
+      - "C:/Program Files/Git LFS/freetype2/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/dotnet/include/freetype2/"
+      - "C:/Program Files/dotnet/include/"
+      - "C:/Program Files/dotnet/freetype2/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/include/freetype2/"
+      - "C:/Program Files/CMake/bin/include/"
+      - "C:/Program Files/CMake/bin/freetype2/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/include/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/include/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/include/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/include/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/include/freetype2/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/include/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/freetype2/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/include/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/include/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/include/freetype2/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/include/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/freetype2/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/include/freetype2/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/include/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/freetype2/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/include/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/include/include/freetype2/"
+      - "C:/Program Files/include/include/"
+      - "C:/Program Files/include/freetype2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/include/freetype2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/freetype2/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/include/freetype2/"
+      - "C:/Program Files (x86)/include/include/"
+      - "C:/Program Files (x86)/include/freetype2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/include/freetype2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/freetype2/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/include/freetype2/"
+      - "C:/Program Files/CMake/include/include/"
+      - "C:/Program Files/CMake/include/freetype2/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/include/freetype2/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/freetype2/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/physics/include/include/freetype2/"
+      - "C:/Program Files (x86)/physics/include/include/"
+      - "C:/Program Files (x86)/physics/include/freetype2/"
+      - "C:/Program Files (x86)/physics/include/"
+      - "C:/Program Files (x86)/physics/include/freetype2/"
+      - "C:/Program Files (x86)/physics/include/"
+      - "C:/Program Files (x86)/physics/freetype2/"
+      - "C:/Program Files (x86)/physics/"
+      - "/usr/X11R6/include/freetype2/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/freetype2/"
+      - "/usr/X11R6/"
+      - "/usr/local/X11R6/include/freetype2/"
+      - "/usr/local/X11R6/include/"
+      - "/usr/local/X11R6/freetype2/"
+      - "/usr/local/X11R6/"
+      - "/usr/local/X11/include/freetype2/"
+      - "/usr/local/X11/include/"
+      - "/usr/local/X11/freetype2/"
+      - "/usr/local/X11/"
+      - "/usr/freeware/include/freetype2/"
+      - "/usr/freeware/include/"
+      - "/usr/freeware/freetype2/"
+      - "/usr/freeware/"
+      - "/REGISTRY-NOTFOUND/include/freetype2/"
+      - "/REGISTRY-NOTFOUND/include/"
+      - "/REGISTRY-NOTFOUND/freetype2/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/include/freetype2/ft2build.h"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/include/ft2build.h"
+    found: "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/"
+    search_context:
+      CMAKE_INCLUDE_PATH:
+        - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers"
+        - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2"
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/physics"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/physics"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/_deps/sfml-src/cmake/Modules/FindFreetype.cmake:73 (find_path)"
+      - "build/_deps/sfml-src/cmake/Macros.cmake:391 (find_package)"
+      - "build/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt:126 (sfml_find_package)"
+    mode: "path"
+    variable: "FREETYPE_INCLUDE_DIR_freetype2"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "freetype/config/ftheader.h"
+      - "config/ftheader.h"
+    candidate_directories:
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/include/freetype2/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/include/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/include/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/include/freetype2/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/include/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/freetype2/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype2/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype2/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/include/freetype2/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/include/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/freetype2/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/include/freetype2/"
+      - "C:/Windows/System32/include/"
+      - "C:/Windows/System32/freetype2/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/include/freetype2/"
+      - "C:/Windows/include/"
+      - "C:/Windows/freetype2/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/include/freetype2/"
+      - "C:/Windows/System32/wbem/include/"
+      - "C:/Windows/System32/wbem/freetype2/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/include/freetype2/"
+      - "C:/Windows/System32/OpenSSH/include/"
+      - "C:/Windows/System32/OpenSSH/freetype2/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/include/freetype2/"
+      - "C:/Program Files/nodejs/include/"
+      - "C:/Program Files/nodejs/freetype2/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/include/freetype2/"
+      - "C:/Program Files/Git/cmd/include/"
+      - "C:/Program Files/Git/cmd/freetype2/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/include/freetype2/"
+      - "C:/Program Files/Git LFS/include/"
+      - "C:/Program Files/Git LFS/freetype2/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/dotnet/include/freetype2/"
+      - "C:/Program Files/dotnet/include/"
+      - "C:/Program Files/dotnet/freetype2/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/include/freetype2/"
+      - "C:/Program Files/CMake/bin/include/"
+      - "C:/Program Files/CMake/bin/freetype2/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/include/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/include/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/include/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/include/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/include/freetype2/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/include/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/freetype2/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/include/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/include/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/include/freetype2/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/include/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/freetype2/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/include/freetype2/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/include/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/freetype2/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/include/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/include/include/freetype2/"
+      - "C:/Program Files/include/include/"
+      - "C:/Program Files/include/freetype2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/include/freetype2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/freetype2/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/include/freetype2/"
+      - "C:/Program Files (x86)/include/include/"
+      - "C:/Program Files (x86)/include/freetype2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/include/freetype2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/freetype2/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/include/freetype2/"
+      - "C:/Program Files/CMake/include/include/"
+      - "C:/Program Files/CMake/include/freetype2/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/include/freetype2/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/freetype2/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/physics/include/include/freetype2/"
+      - "C:/Program Files (x86)/physics/include/include/"
+      - "C:/Program Files (x86)/physics/include/freetype2/"
+      - "C:/Program Files (x86)/physics/include/"
+      - "C:/Program Files (x86)/physics/include/freetype2/"
+      - "C:/Program Files (x86)/physics/include/"
+      - "C:/Program Files (x86)/physics/freetype2/"
+      - "C:/Program Files (x86)/physics/"
+      - "/usr/X11R6/include/freetype2/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/freetype2/"
+      - "/usr/X11R6/"
+      - "/usr/local/X11R6/include/freetype2/"
+      - "/usr/local/X11R6/include/"
+      - "/usr/local/X11R6/freetype2/"
+      - "/usr/local/X11R6/"
+      - "/usr/local/X11/include/freetype2/"
+      - "/usr/local/X11/include/"
+      - "/usr/local/X11/freetype2/"
+      - "/usr/local/X11/"
+      - "/usr/freeware/include/freetype2/"
+      - "/usr/freeware/include/"
+      - "/usr/freeware/freetype2/"
+      - "/usr/freeware/"
+      - "/REGISTRY-NOTFOUND/include/freetype2/"
+      - "/REGISTRY-NOTFOUND/include/"
+      - "/REGISTRY-NOTFOUND/freetype2/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/include/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype/config/ftheader.h"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/include/freetype/config/ftheader.h"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/freetype/config/ftheader.h"
+      - "C:/Windows/System32/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/include/freetype/config/ftheader.h"
+      - "C:/Windows/System32/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/freetype/config/ftheader.h"
+      - "C:/Windows/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/include/freetype/config/ftheader.h"
+      - "C:/Windows/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/freetype/config/ftheader.h"
+      - "C:/Windows/System32/wbem/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/wbem/include/freetype/config/ftheader.h"
+      - "C:/Windows/System32/wbem/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/wbem/freetype/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/include/freetype/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/freetype2/freetype/config/ftheader.h"
+      - "C:/Windows/System32/OpenSSH/freetype/config/ftheader.h"
+      - "C:/Program Files/nodejs/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/nodejs/include/freetype/config/ftheader.h"
+      - "C:/Program Files/nodejs/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/nodejs/freetype/config/ftheader.h"
+      - "C:/Program Files/Git/cmd/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Git/cmd/include/freetype/config/ftheader.h"
+      - "C:/Program Files/Git/cmd/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Git/cmd/freetype/config/ftheader.h"
+      - "C:/Program Files/Git LFS/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Git LFS/include/freetype/config/ftheader.h"
+      - "C:/Program Files/Git LFS/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/Git LFS/freetype/config/ftheader.h"
+      - "C:/Program Files/dotnet/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/dotnet/include/freetype/config/ftheader.h"
+      - "C:/Program Files/dotnet/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/dotnet/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/bin/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/bin/include/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/bin/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/bin/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/include/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/include/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Roaming/npm/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Roaming/npm/include/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Roaming/npm/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Roaming/npm/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/include/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/freetype/config/ftheader.h"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/include/freetype/config/ftheader.h"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/freetype/config/ftheader.h"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/include/freetype/config/ftheader.h"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/freetype/config/ftheader.h"
+      - "C:/Program Files/include/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/include/include/freetype/config/ftheader.h"
+      - "C:/Program Files/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/include/freetype/config/ftheader.h"
+      - "C:/Program Files/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/include/freetype/config/ftheader.h"
+      - "C:/Program Files/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/include/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/include/include/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/include/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/include/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files/CMake/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/physics/include/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/physics/include/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/physics/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/physics/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/physics/include/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/physics/include/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/physics/freetype2/freetype/config/ftheader.h"
+      - "C:/Program Files (x86)/physics/freetype/config/ftheader.h"
+      - "/usr/X11R6/include/freetype2/freetype/config/ftheader.h"
+      - "/usr/X11R6/include/freetype/config/ftheader.h"
+      - "/usr/X11R6/freetype2/freetype/config/ftheader.h"
+      - "/usr/X11R6/freetype/config/ftheader.h"
+      - "/usr/local/X11R6/include/freetype2/freetype/config/ftheader.h"
+      - "/usr/local/X11R6/include/freetype/config/ftheader.h"
+      - "/usr/local/X11R6/freetype2/freetype/config/ftheader.h"
+      - "/usr/local/X11R6/freetype/config/ftheader.h"
+      - "/usr/local/X11/include/freetype2/freetype/config/ftheader.h"
+      - "/usr/local/X11/include/freetype/config/ftheader.h"
+      - "/usr/local/X11/freetype2/freetype/config/ftheader.h"
+      - "/usr/local/X11/freetype/config/ftheader.h"
+      - "/usr/freeware/include/freetype2/freetype/config/ftheader.h"
+      - "/usr/freeware/include/freetype/config/ftheader.h"
+      - "/usr/freeware/freetype2/freetype/config/ftheader.h"
+      - "/usr/freeware/freetype/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/include/freetype2/freetype/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/include/freetype/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/freetype2/freetype/config/ftheader.h"
+      - "/REGISTRY-NOTFOUND/freetype/config/ftheader.h"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/include/freetype2/config/ftheader.h"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/include/config/ftheader.h"
+    found: "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2/"
+    search_context:
+      CMAKE_INCLUDE_PATH:
+        - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers"
+        - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/headers/freetype2"
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/physics"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/physics"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/_deps/sfml-src/cmake/Modules/FindFreetype.cmake:94 (find_library)"
+      - "build/_deps/sfml-src/cmake/Macros.cmake:391 (find_package)"
+      - "build/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt:126 (sfml_find_package)"
+    mode: "library"
+    variable: "FREETYPE_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "freetype"
+      - "libfreetype"
+      - "freetype219"
+    candidate_directories:
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lib/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lib/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/lib/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/lib/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Git LFS/lib/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/lib/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/lib/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/Gregory/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/lib/"
+      - "C:/Users/Gregory/AppData/Roaming/npm/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/lib/"
+      - "C:/Users/Gregory/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/lib/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2024.2.6/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/lib/"
+      - "C:/Program Files/JetBrains/CLion 2025.1.1/bin/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/lib/"
+      - "C:/Users/Gregory/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/lib/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/physics/lib/lib/"
+      - "C:/Program Files (x86)/physics/lib/"
+      - "C:/Program Files (x86)/physics/lib/"
+      - "C:/Program Files (x86)/physics/"
+      - "C:/Program Files (x86)/physics/bin/lib/"
+      - "C:/Program Files (x86)/physics/bin/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/local/X11R6/lib/"
+      - "/usr/local/X11R6/"
+      - "/usr/local/X11/lib/"
+      - "/usr/local/X11/"
+      - "/usr/freeware/lib/"
+      - "/usr/freeware/"
+      - "/REGISTRY-NOTFOUND/lib/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/lib/"
+    found: "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/libs-msvc-universal/x64/freetype.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/Gregory/otus-hw/homework-4/build/_deps/sfml-src/extlibs/libs-msvc-universal/x64"
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Git LFS"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Gregory\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Gregory\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2024.2.6\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.1.1\\bin"
+        - "C:\\Users\\Gregory\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/physics"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/physics"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/physics/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+...
