@@ -5,13 +5,7 @@
 
 class Ball {
 public:
-    Velocity velocity;
-    Point position;
-    double radius;
-    double mass;
-    Color color;
-    Point center;
-    bool collidable;
+
     Ball();
     Ball(Point pos, double radius, double mass, Color color, bool collidable);
 
@@ -34,4 +28,12 @@ public:
     bool getCollidable() const;
 
     void draw(Painter& painter) const;
+private:
+    Velocity velocity;
+    Point position;
+    double radius;
+    double mass;
+    Color color;
+    Point center;
+    bool collidable;
 };
