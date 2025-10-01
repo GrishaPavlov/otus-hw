@@ -73,7 +73,7 @@ public:
     }
 
     double eval() const override {
-        if (values.size() == 0)
+        if (values.empty())
             return 0;
         return sum / values.size();
     }
@@ -89,9 +89,7 @@ private:
 
 class StdDev : public IStatistics {
 public:
-    StdDev() {
-        sum = 0.0;
-        mean_ = new Mean();
+    StdDev() : sum(0.0), mean_(new Mean) {
     }
 
     void update(double next) override {
@@ -100,9 +98,13 @@ public:
     }
 
     double eval() const override {
+        if (values.empty()) {
+            std::cerr << "No values provided" << std::endl;
+            return 0;
+        }
         double sm = 0.0;
-        for (int i = 0; i < values.size(); i++) {
-            sm += std::pow(values[i] - mean_->eval(), 2);
+        for (double value : values) {
+            sm += std::pow(value - mean_->eval(), 2);
         }
         return std::sqrt(sm / values.size());
     }
@@ -145,18 +147,9 @@ private:
     mutable std::vector<double> values;
 };
 
-class pct90 : public IStatistics {
+class pct90 : public Percentile {
 public:
-    pct90() {
-        percent = new Percentile(0.9);
-    }
-
-    void update(double next) override {
-        percent->update(next);
-    }
-
-    double eval() const override {
-        return percent->eval();
+    pct90(): Percentile(0.9) {
     }
 
     const char *name() const override {
@@ -164,21 +157,11 @@ public:
     }
 
 private:
-    Percentile *percent;
 };
 
-class pct95 : public IStatistics {
+class pct95 : public Percentile {
 public:
-    pct95() {
-        percent = new Percentile(0.95);
-    }
-
-    void update(double next) override {
-        percent->update(next);
-    }
-
-    double eval() const override {
-        return percent->eval();
+    pct95(): Percentile(0.95) {
     }
 
     const char *name() const override {
@@ -186,7 +169,6 @@ public:
     }
 
 private:
-    Percentile *percent;
 };
 
 int main() {
@@ -200,10 +182,15 @@ int main() {
     statistics[4] = new pct90{};
     statistics[5] = new pct95{};
 
-    double val = 0;
-    while (std::cin >> val) {
-        for (size_t i = 0; i < statistics_count; ++i) {
-            statistics[i]->update(val);
+    // double val = 0;
+    // while (std::cin >> val) {
+    //     for (size_t i = 0; i < statistics_count; ++i) {
+    //         statistics[i]->update(val);
+    //     }
+    // }
+    for (int i = 0; i < 100; i++) {
+        for (auto & statistic : statistics) {
+            statistic->update(i);
         }
     }
 
